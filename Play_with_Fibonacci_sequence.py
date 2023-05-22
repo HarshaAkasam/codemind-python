@@ -1,0 +1,12 @@
+n=int(input())
+a=[]
+x=0
+y=1
+a.append(x)
+while(n-1):
+    t=x
+    x=x+y
+    a.append(x)
+    y=t
+    n-=1
+print(*a)

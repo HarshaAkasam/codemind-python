@@ -1,0 +1,5 @@
+x,n=map(int,input().split())
+x=str(x)
+print(abs(int(x[0:n])-int(x[len(x)-n:len(x)])))
+#print(int(x[0:n]))
+#print(x[len(x)-n-1:len(x)-1])
